@@ -9,7 +9,6 @@ jobs:
 
   Deploy_Heroku:
     runs-on: ubuntu-latest
-    needs: Tests
     steps:
     - uses: actions/checkout@v2
 
